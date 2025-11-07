@@ -1,2 +1,9 @@
+# harflarni listda chiqaradigan dastur
+
 ism = input("ismingizni kiriting:>")
-print("sizning ismingiz:>", ism)
+letters = []
+
+for i in ism:
+    letters.append(i)
+
+print("natija", letters)
